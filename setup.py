@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-python-telegram-bot-adapter",
-    version="0.1",
+    version="0.1.2",
     author="DarkKeks",
     author_email="darkkeks@rambler.ru",
     description="Tiny django app for easier telegram bot creation",

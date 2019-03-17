@@ -9,7 +9,7 @@ django-python-telegram-bot-adapter
     ```python
     INSTALLED_APPS = [
         ...
-        'bot_adapter',
+        'bot_adapter.apps.BotConfig',
     ]
     ```
 3. Include URLconf in your project urls.py
