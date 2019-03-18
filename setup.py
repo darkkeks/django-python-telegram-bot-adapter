@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-python-telegram-bot-adapter",
-    version="0.1.2",
+    version="0.1.3",
     author="DarkKeks",
     author_email="darkkeks@rambler.ru",
     description="Tiny django app for easier telegram bot creation",
@@ -16,6 +16,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/DarkKeks/django-python-telegram-bot-adapter",
     packages=setuptools.find_packages(),
+    install_requires=open('requirements.txt').read().splitlines(),
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
